@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
 display: flex;
-
+width: 100%;
+height: max-content;
 background-color: black;
 justify-content: center;
 align-items: center;

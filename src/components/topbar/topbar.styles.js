@@ -76,6 +76,7 @@ cursor: pointer;
 
 &:hover {
     color: #ebf0b1;
+    transition: all 0.3s ease-in-out;
     border-bottom: 5px solid #ebf0b1;
 }
 
