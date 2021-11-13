@@ -1,9 +1,14 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Nav, NavContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './topbar.styles'
-import { FaBars } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import Aos from 'aos';
 
 const TopBar = () => {
+
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+    const colseMenu = () => setClick(false)
+
     useEffect(() => {
         Aos.init({
             duration: 1000
@@ -13,21 +18,23 @@ const TopBar = () => {
         <Nav data-aos="fade-down">
             <NavContainer>
                 <NavLogo to="/">Depdep</NavLogo>
-                <MobileIcon>
-                    <FaBars />
+                <MobileIcon onClick={handleClick}>
+                    { click ? <FaTimes color="#fff" />
+                    : <FaBars color="#fff" />
+                    }
                 </MobileIcon>
-                <NavMenu>
+                <NavMenu onClick={handleClick} click={click}>
                     <NavItem>
-                        <NavLinks to="Home" activeClass="active" spy={true} smooth={true}>Home</NavLinks>
+                        <NavLinks onClick={colseMenu} to="Home" activeClass="active" spy={true} smooth={true}>Home</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="About" spy={true} smooth={true}>About</NavLinks>
+                        <NavLinks onClick={colseMenu} to="About" spy={true} smooth={true}>About</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="projects" spy={true} smooth={true}>Project</NavLinks>
+                        <NavLinks onClick={colseMenu} to="projects" spy={true} smooth={true}>Project</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="contactme" spy={true} smooth={true}>Contact Me</NavLinks>
+                        <NavLinks onClick={colseMenu} to="contactme" spy={true} smooth={true}>Contact Me</NavLinks>
                     </NavItem>
                 </NavMenu>
             </NavContainer>

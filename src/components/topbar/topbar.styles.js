@@ -6,6 +6,7 @@ import { Link as LinkS } from 'react-scroll'
 export const Nav = styled.div`
 display: flex;
 height: 80px;
+position: sticky;
 align-items: center;
 justify-content: center;
 background-color: rgba(0,0,0,0.9);
@@ -41,9 +42,7 @@ display: none;
 @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
+    right: 20px;
     font-size: 1.8rem;
     cursor: pointer;
     color: #fff;
@@ -56,12 +55,23 @@ display: flex;
 list-style: none;
 justify-content: center;
 align-items: center;
+
 @media screen and (max-width: 768px) {
-    display: none;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 80px;
+    padding: 20px;
+    right: ${({click}) => click ? '0' : '-100%'};
+    transition: all .5s ease;
+    font-size: 1.5rem;
+    border-top: 2px solid #ebf0b1;
 
 }
 `
-
 export const NavItem = styled.li`
 height: 80px;
 `
