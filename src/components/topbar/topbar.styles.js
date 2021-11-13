@@ -80,7 +80,6 @@ cursor: pointer;
     border-bottom: 5px solid #ebf0b1;
 }
 
-&:active {
-    
+&:active { 
     transform: scale(1.07);
 }`

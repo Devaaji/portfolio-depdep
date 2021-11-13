@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 
 export const Project = styled.div`
 width: 100%;
-height: 90vh;
+height: 90%;
 `
 export const ProjectContainer = styled.div`
 display: flex;
@@ -86,14 +86,9 @@ font-size: 1.3rem;`
 export const Icons = styled.div`
 border: none;
 border-radius: 4px;
-background: whitesmoke;
-padding: 0 3px;
+background: black;
 
 &:hover {
-    background-color: darkgrey;
 }`
 
-export const IconToLink = styled(FaExternalLinkAlt)`
-width:100%;
-color: gray;
-margin-top: 2px`
+export const IconToLink = styled(FaExternalLinkAlt)``

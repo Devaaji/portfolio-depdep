@@ -1,5 +1,6 @@
 import React from 'react'
 import About from '../components/aboutme/About'
+import Footer from '../components/footer/Footer'
 import Header from '../components/header/Header'
 import Projects from '../components/projects/Projects'
 import TopBar from '../components/topbar/TopBar'
@@ -11,6 +12,7 @@ function Home() {
         <Header/>
         <About/>
         <Projects/>
+        <Footer/>
         </>
     )
 }

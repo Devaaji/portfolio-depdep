@@ -27,6 +27,7 @@ function About() {
                         <Skill>Express.js</Skill>
                         <Skill>React</Skill>
                         <Skill>Mongodb</Skill>
+                        <Skill>Node.js</Skill>
                     </Skills>
                     <TextProfile>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error quidem corporis, dolorum nam, aliquam ea, porro expedita possimus nulla fugiat excepturi repudiandae non officiis. Aspernatur rerum ullam nemo alias sit nihil quam iure voluptates, ratione vero nam odit quae!
