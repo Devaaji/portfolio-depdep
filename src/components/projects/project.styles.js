@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { FaExternalLinkAlt } from 'react-icons/fa'
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'
 
 export const Project = styled.div`
 width: 100%;
@@ -75,20 +75,28 @@ align-items: center;
 width: 100%;
 padding: 10px;
 display: flex;
-justify-content: space-between;
 color: whitesmoke;
 bottom: 0;
 `
+export const CardTitle = styled.div``
 
 export const TitleText = styled.div`
 font-size: 1.3rem;`
 
 export const Icons = styled.div`
+flex: 1;
 border: none;
-border-radius: 4px;
-background: black;
+width: 25px;
+height: 25px;
+display: flex;
+justify-content: end;
+align-items: center;
 
 &:hover {
 }`
 
-export const IconToLink = styled(FaExternalLinkAlt)``
+export const IconToLink = styled(FaExternalLinkAlt)`
+`
+
+export const Github = styled(FaGithub)`
+margin-right: 8px;`

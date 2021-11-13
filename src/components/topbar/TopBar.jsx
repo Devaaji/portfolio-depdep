@@ -27,7 +27,7 @@ const TopBar = () => {
                         <NavLinks to="projects" spy={true} smooth={true}>Project</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="contactus">Contact Me</NavLinks>
+                        <NavLinks to="contactme" spy={true} smooth={true}>Contact Me</NavLinks>
                     </NavItem>
                 </NavMenu>
             </NavContainer>
