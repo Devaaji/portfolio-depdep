@@ -61,8 +61,8 @@ align-items: center;
     position: absolute;
     flex-direction: column;
     width: 100%;
-    height: 40vh;
-    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 1.9);
     top: 80px;
     padding: 20px;
     right: ${({click}) => click ? '0' : '-100%'};
@@ -93,3 +93,4 @@ cursor: pointer;
 &:active { 
     transform: scale(1.07);
 }`
+

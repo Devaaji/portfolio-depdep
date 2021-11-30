@@ -51,6 +51,11 @@ export const IconAkun = styled.div`
 margin-top: 10px;
 
 `
+export const LinkTo = styled.a`
+text-decoration: none;
+color: inherit;`
+
+
 export const Ig = styled(FaInstagram)`
 font-size: 1.5rem;
 margin-right: 10px;
@@ -112,6 +117,7 @@ cursor: pointer;
 export const BtnAbout = styled.div`
 border: none;
 padding: 8px;
+margin-left: 6px;
 cursor: pointer;
 border-radius: 5px;
 background-color: black;

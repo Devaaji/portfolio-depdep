@@ -7,14 +7,15 @@ import Projects from '../components/projects/Projects'
 import TopBar from '../components/topbar/TopBar'
 
 function Home() {
+
     return (
         <>
-        <TopBar/>
-        <Header/>
-        <About/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
+            <TopBar />
+            <Header />
+            <About />
+            <Projects />
+            <Contact />
+            <Footer />
         </>
     )
 }

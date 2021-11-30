@@ -86,3 +86,7 @@ cursor: pointer;
 &:hover {
     color: green;
 }`
+
+export const LinkTo = styled.a`
+text-decoration: none;
+color: inherit`

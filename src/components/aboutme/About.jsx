@@ -30,7 +30,7 @@ function About() {
                         <Skill>Node.js</Skill>
                     </Skills>
                     <TextProfile>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est error quidem corporis, dolorum nam, aliquam ea, porro expedita possimus nulla fugiat excepturi repudiandae non officiis. Aspernatur rerum ullam nemo alias sit nihil quam iure voluptates, ratione vero nam odit quae!
+                    You can be called Deva, I am 20 years old. I'm a Student Semester 5 at University of Bandar Lampung . I have a desire to be a frontend web designer and web UI designer. "Hope your day is better"
                     </TextProfile>
                 </BoxProfile>
             </Row>

@@ -1,7 +1,7 @@
 import React from 'react'
 import {
-    HeaderContainer, Row, LeftHeader, NameH2, TextIntro,
-    IconAkun, Ig, LinkId, FB, Github, Btn, BtnCV, BtnAbout
+    HeaderContainer, Row, LeftHeader, NameH2,
+    IconAkun, Ig, LinkId, FB, Github, Btn, BtnCV, BtnAbout, LinkTo
 } from './header.styles'
 import Typical from 'react-typical'
 import { steps } from '../../stepon'
@@ -12,8 +12,8 @@ function Header() {
             <Row>
                 <LeftHeader>
                     <NameH2>
-                        <Typical wrapper="span" steps={steps} loop={Infinity} className={'caca'} />
-                        <TextIntro>Front End Web Developer</TextIntro>
+                       Hi, <Typical wrapper="span" steps={steps} loop={Infinity} className={'caca'} />
+                        
                     </NameH2>
                 </LeftHeader>
                 <Btn>
@@ -26,10 +26,10 @@ function Header() {
                 </Btn>
             </Row>
             <IconAkun>
-                <Github />
-                <LinkId />
-                <Ig />
-                <FB />
+                <LinkTo href="https://github.com/Devaaji"><Github /></LinkTo>
+                <LinkTo href="https://www.linkedin.com/in/deva-aji-saputra-95aa2313b/"> <LinkId /></LinkTo>
+                <LinkTo href="https://www.instagram.com/devaajisaputra/?hl=en"><Ig /></LinkTo>
+                <LinkTo href="https://www.facebook.com/deva.Aji.saputra.facom"><FB /></LinkTo>
             </IconAkun>
         </HeaderContainer>
     )

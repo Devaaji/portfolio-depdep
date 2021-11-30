@@ -81,6 +81,7 @@ font-size: 2rem;
 padding: 10px 0;`
 
 export const TextProfile = styled.p`
+font-size: 25px;
 
 `
 

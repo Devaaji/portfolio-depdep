@@ -6,7 +6,7 @@ function Footer() {
         <>
         <FooterContainer>
            <NamaFooter>
-           © 2021 Deva Aji Saputra 
+           © 2021 Deva Aji Saputra
            </NamaFooter>
         <TopBack to="Home" activeClass="active" spy={true} smooth={true}>
             <IconTop/>
