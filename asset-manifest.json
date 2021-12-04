@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio-depdep/static/js/main.a24f0fcd.chunk.js",
-    "main.js.map": "/portfolio-depdep/static/js/main.a24f0fcd.chunk.js.map",
+    "main.js": "/portfolio-depdep/static/js/main.95f6bf44.chunk.js",
+    "main.js.map": "/portfolio-depdep/static/js/main.95f6bf44.chunk.js.map",
     "runtime-main.js": "/portfolio-depdep/static/js/runtime-main.92a7b862.js",
     "runtime-main.js.map": "/portfolio-depdep/static/js/runtime-main.92a7b862.js.map",
     "static/css/2.ec02d681.chunk.css": "/portfolio-depdep/static/css/2.ec02d681.chunk.css",
@@ -10,12 +10,14 @@
     "index.html": "/portfolio-depdep/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/portfolio-depdep/static/css/2.ec02d681.chunk.css.map",
     "static/js/2.80c72128.chunk.js.LICENSE.txt": "/portfolio-depdep/static/js/2.80c72128.chunk.js.LICENSE.txt",
+    "static/media/nekolyrics.f4a026d0.png": "/portfolio-depdep/static/media/nekolyrics.f4a026d0.png",
+    "static/media/pahawangisland.ad119ce7.png": "/portfolio-depdep/static/media/pahawangisland.ad119ce7.png",
     "static/media/profile.bdb6b3ae.jpg": "/portfolio-depdep/static/media/profile.bdb6b3ae.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.92a7b862.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.80c72128.chunk.js",
-    "static/js/main.a24f0fcd.chunk.js"
+    "static/js/main.95f6bf44.chunk.js"
   ]
 }
