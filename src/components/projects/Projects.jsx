@@ -1,7 +1,8 @@
 import Aos from 'aos';
 import React, { useEffect } from 'react'
-import { Project, ProjectContainer, Cards, NamaProject, TitleText, CardProject, ImgCard, HoverCard, HoverContainer, Icons, IconToLink, CardTitle, Github } from './project.styles'
-
+import { Project, ProjectContainer, Cards, NamaProject, TitleText, CardProject, ImgCard, HoverCard, HoverContainer, Icons, IconToLink, CardTitle, Github, LinkTo } from './project.styles'
+import pahawang from '../../images/pahawangisland.png'
+import nekolyrics from '../../images/nekolyrics.png'
 function Projects() {
 
     useEffect(() => {
@@ -16,87 +17,35 @@ function Projects() {
             <ProjectContainer>
                 <Cards>
                     <CardProject data-aos="fade-up" data-aos-delay="50">
-                        <ImgCard alt="" src="https://cdn.dribbble.com/users/59947/screenshots/16845051/media/ce9cde74acf08203954312a78d7f2e13.jpg?compress=1&resize=1600x1200" />
+                        <ImgCard alt="" src={pahawang} />
                         <HoverCard>
                             <HoverContainer>
                                 <CardTitle>
-                                    <TitleText>Title text.... </TitleText>
+                                    <TitleText>Pahawang Island </TitleText>
                                 </CardTitle>
                                 <Icons>
+                                    <LinkTo href="https://github.com/Devaaji/pahawang-island">
                                     <Github />
+                                    </LinkTo>
+                                    <LinkTo href="https://devaaji.github.io/pahawang-island/">
                                     <IconToLink />
+                                    </LinkTo>
                                 </Icons>
                             </HoverContainer>
                         </HoverCard>
                     </CardProject>
                     <CardProject data-aos="fade-up" data-aos-delay="50">
-                        <ImgCard alt="" src="https://cdn.dribbble.com/users/97388/screenshots/16845414/media/73a8cc95f4a72ba9e6c28df5a040ef21.png?compress=1&resize=1600x1200" />
+                        <ImgCard alt="" src={nekolyrics} />
                         <HoverCard>
                             <HoverContainer>
-                                <TitleText>Title text.... </TitleText>
+                                <TitleText>NekoLyrics | Lirik  </TitleText>
                                 <Icons>
+                                <LinkTo href="https://github.com/Devaaji/NekoLyrics">
                                     <Github />
+                                    </LinkTo>
+                                    <LinkTo href="https://neko-lyrics-depdep.herokuapp.com/">
                                     <IconToLink />
-                                </Icons>
-                            </HoverContainer>
-                        </HoverCard>
-                    </CardProject>
-                    <CardProject data-aos="fade-up" data-aos-delay="50">
-                        <ImgCard alt="" src="https://cdn.dribbble.com/users/427857/screenshots/16841612/media/dc59c3897c233dc46b286307cfad462f.png?compress=1&resize=1600x1200" />
-                        <HoverCard>
-                            <HoverContainer>
-                                <TitleText>Title text.... </TitleText>
-                                <Icons>
-                                    <Github />
-                                    <IconToLink />
-                                </Icons>
-                            </HoverContainer>
-                        </HoverCard>
-                    </CardProject>
-                    <CardProject data-aos="fade-up" data-aos-delay="50">
-                        <ImgCard alt="" src="https://cdn.dribbble.com/users/1575908/screenshots/16843493/media/b0865852731b77b330d3021481578c7b.jpg?compress=1&resize=1600x1200" />
-                        <HoverCard>
-                            <HoverContainer>
-                                <TitleText>Title text.... </TitleText>
-                                <Icons>
-                                    <Github />
-                                    <IconToLink />
-                                </Icons>
-                            </HoverContainer>
-                        </HoverCard>
-                    </CardProject>
-                    <CardProject data-aos="fade-up" data-aos-delay="50">
-                        <ImgCard alt="" src="https://cdn.dribbble.com/users/2202649/screenshots/16842049/media/a592ecee723f18bcdfe6660eeec07f35.png?compress=1&resize=1600x1200" />
-                        <HoverCard>
-                            <HoverContainer>
-                                <TitleText>Title text.... </TitleText>
-                                <Icons>
-                                    <Github />
-                                    <IconToLink />
-                                </Icons>
-                            </HoverContainer>
-                        </HoverCard>
-                    </CardProject>
-                    <CardProject data-aos="fade-up" data-aos-delay="50">
-                        <ImgCard alt="" src="https://cdn.dribbble.com/users/15687/screenshots/16844687/media/ce88defbd132821bc2a180c467317f18.png?compress=1&resize=1600x1200" />
-                        <HoverCard>
-                            <HoverContainer>
-                                <TitleText>Title text.... </TitleText>
-                                <Icons>
-                                    <Github />
-                                    <IconToLink />
-                                </Icons>
-                            </HoverContainer>
-                        </HoverCard>
-                    </CardProject>
-                    <CardProject data-aos="fade-up" data-aos-delay="50">
-                        <ImgCard alt="" src="https://cdn.dribbble.com/users/1309691/screenshots/16842018/media/bd0f864b4d0ef49952871cb3bef269de.jpg?compress=1&resize=1600x1200" />
-                        <HoverCard>
-                            <HoverContainer>
-                                <TitleText>Title text.... </TitleText>
-                                <Icons>
-                                    <Github />
-                                    <IconToLink />
+                                    </LinkTo>
                                 </Icons>
                             </HoverContainer>
                         </HoverCard>

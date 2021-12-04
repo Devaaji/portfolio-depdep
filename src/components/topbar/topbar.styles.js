@@ -79,18 +79,32 @@ height: 80px;
 export const NavLinks = styled(LinkS)`
 display: flex;
 height: 100%;
+position: relative;
 justify-content: center;
 align-items: center;
 padding: 0 1rem;
 cursor: pointer;
-
-&:hover {
-    color: #ebf0b1;
-    transition: all 0.3s ease-in-out;
-    border-bottom: 5px solid #ebf0b1;
-}
-
 &:active { 
     transform: scale(1.07);
 }`
+
+export const SelectLink = styled.div`
+width: 100%;
+height: 100%;
+position: relative;
+
+
+&::after {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    width: 0%;
+    height: 5px;
+    transition:  .2s ease-out;
+    background-color: #ebf0b1;
+}
+&:hover::after{
+    width: 100%;
+}
+`
 

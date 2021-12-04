@@ -42,7 +42,6 @@ cursor: pointer;
 
 export const ImgCard = styled.img`
 width: 100%;
-height: 100%;
 border-radius: 10px;
 object-fit: cover;
 background-position: center;
@@ -96,7 +95,23 @@ align-items: center;
 }`
 
 export const IconToLink = styled(FaExternalLinkAlt)`
+transition: all .2s ease-in-out;
+font-size: 20px;
+
+&:hover{
+    transform: scale(1.2);
+} 
 `
 
 export const Github = styled(FaGithub)`
-margin-right: 8px;`
+margin-right: 15px;
+font-size: 20px;
+transition: all .2s ease-in-out;
+&:hover{
+    color: linen;
+    transform: scale(1.2);
+} 
+`
+export const LinkTo = styled.a`
+text-decoration: none;
+color: inherit;`
