@@ -18,9 +18,9 @@ function Header() {
                 </LeftHeader>
                 <Btn>
                     <BtnCV>
-                        Download CV
+                    <LinkTo href="https://drive.google.com/file/d/1VT7UNyD2tFp1C3I49rvhX-m3JrknHkiZ/view">Download CV</LinkTo>
                     </BtnCV>
-                    <BtnAbout>
+                    <BtnAbout to="About" spy={true} smooth={true}>
                         About Me
                     </BtnAbout>
                 </Btn>

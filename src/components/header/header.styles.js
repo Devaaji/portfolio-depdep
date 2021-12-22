@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {FaInstagram} from 'react-icons/fa'
 import {AiFillLinkedin, AiFillFacebook, AiFillGithub } from 'react-icons/ai'
+import { Link as LinkS } from 'react-scroll'
 
 export const HeaderContainer = styled.div`
 display: flex;
@@ -114,7 +115,7 @@ cursor: pointer;
 }
 `
 
-export const BtnAbout = styled.div`
+export const BtnAbout = styled(LinkS)`
 border: none;
 padding: 8px;
 margin-left: 6px;

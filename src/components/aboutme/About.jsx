@@ -24,9 +24,10 @@ function About() {
                         Skill:
                         <Skill>HTML</Skill>
                         <Skill>CSS</Skill>
-                        <Skill>Express.js</Skill>
+                        <Skill>JS</Skill>
                         <Skill>React</Skill>
                         <Skill>Mongodb</Skill>
+                        <Skill>PHP</Skill>
                         <Skill>Node.js</Skill>
                     </Skills>
                     <TextProfile>
